@@ -8,7 +8,8 @@ import (
 
 var DB *gorm.DB
 
-func ConnectDBgit in() {
+func ConnectDBgit ingit remote add origin https://github.com/malka123456/task-manager-api.git
+() {
     dsn := "host=localhost user=postgres password=Aa09!@#$ dbname=taskdb port=5432 sslmode=disable"
     db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
     if err != nil {
